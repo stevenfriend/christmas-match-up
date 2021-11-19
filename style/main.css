@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -15,7 +17,7 @@ html, body {
 
 #player {
   text-decoration: underline;
-  color: coral;
+  color: green;
 }
 
 #menu {
@@ -28,10 +30,10 @@ html, body {
 h1 {
   margin: 20px 0 10px 0;
   text-align: center;
-  font: 5em 'Carter One', cursive;
-  color: rgb(245, 120, 23);
+  font: 7em 'Carter One', cursive;
+  color: rgb(245, 23, 23);
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: rgb(33, 15, 52);
+  -webkit-text-stroke-color: rgb(101, 7, 7);
 }
 
 button {
@@ -95,7 +97,9 @@ button:hover {
   justify-content: center;
   text-align: center;
   position: absolute;
-  background: rgb(255, 215, 198);
+  background-image: url("../images/christmas.jpg");
+  /* background: rgb(245, 23, 23); */
+  background-size: 400px;
   top: 0;
 	right: 0;
 	bottom: 0; 
@@ -104,7 +108,7 @@ button:hover {
 
 .front,
 .back {
-  border: solid black 4px;
+  border: solid rgb(34, 34, 34);
   transition: all .4s ease-in-out;  
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -135,7 +139,7 @@ button:hover {
 .number {
   float: inline;
   font: 7em 'Carter One', cursive;
-  color: rgb(252, 135, 45);
+  color: rgb(0, 128, 6);
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: rgb(34, 14, 4);
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
