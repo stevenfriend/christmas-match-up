@@ -33,7 +33,8 @@ h1 {
   font: 7em 'Carter One', cursive;
   color: rgb(245, 23, 23);
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: rgb(101, 7, 7);
+  -webkit-text-stroke-color: rgb(145, 18, 18);
+  filter: drop-shadow(.3vmin .3vmin .1vmin rgba(0, 0, 0, 0.7));
 }
 
 button {
@@ -99,7 +100,8 @@ button:hover {
   position: absolute;
   background-image: url("../images/christmas.jpg");
   /* background: rgb(245, 23, 23); */
-  background-size: 400px;
+  background-size: 500px;
+  background-position: 10% 10%;
   top: 0;
 	right: 0;
 	bottom: 0; 
@@ -142,4 +144,5 @@ button:hover {
   color: rgb(0, 128, 6);
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
+  filter: drop-shadow(.5vmin .5vmin .2vmin rgba(0, 0, 0, .7));
 }
